@@ -1,0 +1,4 @@
+resources:
+- repo: self
+queue:
+  name: StarainVMAs
