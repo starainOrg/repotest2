@@ -1,7 +1,18 @@
 resources:
 - repo: self
 queue:
-  name: Hosted
+  name: StarainVMAs
+  demands: cmake
+steps:
+- task: CMake@1
+  displayName: 'CMake '
+
+
+
+
+
+
+
 
 
 
