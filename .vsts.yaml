@@ -1,7 +1,7 @@
 resources:
 - repo: self
 queue:
-  name: Hosted
+  name: Hosted VS2017
   demands: cmake
 steps:
 - task: CMake@1
